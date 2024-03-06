@@ -11,7 +11,9 @@ const LOOT_SCENES := [
 
 func loot() -> void:
 	_animation_player.play("open")
-
+	loot() 
+	create_pickup()
+	
 
 func create_pickup() -> void:
 	var loot_instance = LOOT_SCENES[randi() % LOOT_SCENES.size()].instantiate()
