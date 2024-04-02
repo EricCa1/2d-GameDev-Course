@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://3xsn7wpaaq2a"]
+
+[ext_resource type="Texture2D" uid="uid://bniyrxn3r2v8h" path="res://assets/ship.png" id="1_78p8q"]
+[ext_resource type="Script" path="res://lessons/ship.gd" id="2_q11l5"]
+
+[node name="Sprite2D" type="Sprite2D"]
+texture = ExtResource("1_78p8q")
+script = ExtResource("2_q11l5")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
