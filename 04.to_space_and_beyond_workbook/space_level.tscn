@@ -1,29 +1,29 @@
-[gd_scene load_steps=5 format=3 uid="uid://dsbeecdbgtsn4"]
+[gd_scene load_steps=5 format=3 uid="uid://bdxks652r3b20"]
 
-[ext_resource type="PackedScene" uid="uid://3xsn7wpaaq2a" path="res://lessons/ship.tscn" id="1_4cwea"]
-[ext_resource type="PackedScene" uid="uid://dgf54k70yiiff" path="res://assets/ship/main_thruster/main_thruster.tscn" id="2_mynb6"]
-[ext_resource type="PackedScene" uid="uid://bklom8bhpxg4h" path="res://assets/ship/side_thruster/side_thruster.tscn" id="3_gmbpf"]
-[ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/background/space_background.tscn" id="4_n82u3"]
+[ext_resource type="PackedScene" uid="uid://3xsn7wpaaq2a" path="res://lessons/ship.tscn" id="1_7o32y"]
+[ext_resource type="PackedScene" uid="uid://dgf54k70yiiff" path="res://assets/ship/main_thruster/main_thruster.tscn" id="2_k6bx3"]
+[ext_resource type="PackedScene" uid="uid://bklom8bhpxg4h" path="res://assets/ship/side_thruster/side_thruster.tscn" id="3_suion"]
+[ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/background/space_background.tscn" id="4_gmsup"]
 
 [node name="SpaceLevel" type="Node2D"]
 
-[node name="Sprite2D" parent="." instance=ExtResource("1_4cwea")]
-position = Vector2(838, 521)
+[node name="Sprite2D" parent="." instance=ExtResource("1_7o32y")]
+position = Vector2(840, 563)
 
-[node name="MainThruster" parent="Sprite2D" instance=ExtResource("2_mynb6")]
-position = Vector2(-25, -1)
+[node name="MainThruster" parent="Sprite2D" instance=ExtResource("2_k6bx3")]
+position = Vector2(-40, 0)
 points = PackedVector2Array(0, 0, 33.3333, 0, 66.6667, 0)
 
-[node name="SideThruster" parent="Sprite2D" instance=ExtResource("3_gmbpf")]
-position = Vector2(-43, -24)
-rotation = 1.94455
+[node name="SideThruster" parent="Sprite2D" instance=ExtResource("3_suion")]
+position = Vector2(-49, -20)
+rotation = 1.88246
 
-[node name="SideThruster2" parent="Sprite2D" instance=ExtResource("3_gmbpf")]
-position = Vector2(-43, 24)
-rotation = 1.3644
+[node name="SideThruster2" parent="Sprite2D" instance=ExtResource("3_suion")]
+position = Vector2(-50, 22)
+rotation = 1.32145
 
 [node name="Camera2D" type="Camera2D" parent="Sprite2D"]
 position_smoothing_enabled = true
 position_smoothing_speed = 12.0
 
-[node name="SpaceBackground" parent="." instance=ExtResource("4_n82u3")]
+[node name="SpaceBackground" parent="." instance=ExtResource("4_gmsup")]
