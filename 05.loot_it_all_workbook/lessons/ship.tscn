@@ -50,5 +50,5 @@ offset_top = -57.0
 offset_right = 74.0
 offset_bottom = -47.0
 theme_override_styles/fill = SubResource("StyleBoxFlat_vuacy")
-value = 50.0
+value = 100.0
 show_percentage = false
