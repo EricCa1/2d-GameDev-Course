@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=4 format=3 uid="uid://day76jgn6j3xd"]
 
 [ext_resource type="Script" path="res://practices/L6.P1.create_coins/coin.gd" id="1_iwmdi"]
@@ -15,3 +16,21 @@ texture = ExtResource("2_ls6jh")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
 shape = SubResource("CircleShape2D_5vvs8")
+=======
+[gd_scene load_steps=4 format=3 uid="uid://e153scw637lj"]
+
+[ext_resource type="Script" path="res://practices/L6.P1.create_coins/coin.gd" id="1_i81ow"]
+[ext_resource type="Texture2D" uid="uid://b5n8ybmtouhk0" path="res://assets/practice_assets/coin.png" id="1_mit7o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4ovog"]
+radius = 58.0345
+
+[node name="Coin" type="Area2D"]
+script = ExtResource("1_i81ow")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_mit7o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_4ovog")
+>>>>>>> Stashed changes
