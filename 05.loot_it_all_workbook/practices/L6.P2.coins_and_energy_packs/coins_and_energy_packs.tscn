@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://bnr8sotul61gi"]
+[gd_scene load_steps=4 format=3 uid="uid://dh25f0p1e42l3"]
 
 [ext_resource type="PackedScene" path="res://practices/L6.P2.coins_and_energy_packs/ship_coins_and_energy_packs.tscn" id="1_l7py2"]
-[ext_resource type="PackedScene" uid="uid://5ydmb67pwnbt" path="res://practices/L6.P2.coins_and_energy_packs/coin.tscn" id="3_v6eww"]
-[ext_resource type="PackedScene" uid="uid://crw7y5la3g8kt" path="res://practices/L6.P2.coins_and_energy_packs/energy_pack.tscn" id="5_4aryi"]
+[ext_resource type="PackedScene" path="res://practices/L6.P2.coins_and_energy_packs/coin.tscn" id="3_v6eww"]
+[ext_resource type="PackedScene" path="res://practices/L6.P2.coins_and_energy_packs/energy_pack.tscn" id="5_4aryi"]
 
 [node name="CoinsAndEnergyPacks" type="Node2D"]
 

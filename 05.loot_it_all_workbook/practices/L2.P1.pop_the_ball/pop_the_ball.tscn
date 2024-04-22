@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://k0pg8jqvs3xt"]
+[gd_scene load_steps=5 format=3 uid="uid://20lhxx1i2fph"]
 
 [ext_resource type="PackedScene" uid="uid://bfgqh50gl65fh" path="res://addons/gdquest_practice_framework/practice_solutions/L2.P1.pop_the_ball/ball.tscn" id="1_qqe8w"]
 [ext_resource type="Script" path="res://practices/L2.P1.pop_the_ball/ball.gd" id="2_w2q27"]
